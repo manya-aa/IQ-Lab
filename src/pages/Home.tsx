@@ -27,7 +27,7 @@ const domains = [
     { icon: Database, title: "Bioinformatics", desc: "AI-powered protein folding analysis and large-scale computational genomics.", color: "#0052cc" },
     // { icon: FlaskConical, title: "Synthetic Biology", desc: "Engineering novel biological parts and systems for biotechnology applications.", color: "#00d4ff" },
     { icon: Brain, title: "Biomedical Research", desc: "Discovery of cancer biomarkers and next-generation therapeutic pipelines.", color: "#0066ff" },
-    { icon: Beaker, title: "Microbiology", desc: "Microbial biosensors for environmental monitoring and clinical diagnostics.", color: "#00b8d9" },
+    // { icon: Beaker, title: "Microbiology", desc: "Microbial biosensors for environmental monitoring and clinical diagnostics.", color: "#00b8d9" },
 ];
 
 const news = [
