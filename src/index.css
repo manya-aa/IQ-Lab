@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+    --font-sans: 'Outfit', sans-serif;
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-mono: Menlo, monospace;
+    --radius-sm: 0.25rem;
+    --radius-md: 0.375rem;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+}
+
+@layer base {
+    body {
+        @apply font-sans antialiased bg-[#050d1a] text-white;
+    }
+}
+
+@layer utilities {
+    .glass {
+        @apply bg-white/5 backdrop-blur-md border border-white/10;
+    }
+    .glass-card {
+        @apply bg-[#0a1628]/60 backdrop-blur-md border border-cyan-500/20 hover:border-cyan-400/50 transition-all duration-300;
+    }
+}
