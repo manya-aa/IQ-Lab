@@ -150,7 +150,12 @@ export default function Home() {
                                 {/*Where molecular science meets human health*/}
                             </h2>
                             <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
-                                The Qamar Lab at Gautam Buddha University is focused on advancing research in cancer biology, transcriptional gene regulation, molecular oncology, and computational drug discovery. The laboratory integrates experimental biology with in-silico approaches to investigate cellular senescence, endocrine regulation, and therapeutic target discovery.
+                                The Qamar Lab at Gautam Buddha University is dedicated to advancing interdisciplinary research in cancer biology, molecular oncology, transcriptional gene regulation, and computational drug discovery. The laboratory combines experimental biology with in-silico approaches to investigate the molecular mechanisms underlying cancer progression and associated metabolic disorders, with a particular focus on cancer cachexia.
+
+                                Our research explores how cellular stress pathways, including endoplasmic reticulum (ER) stress and autophagy, contribute to tumor progression, muscle wasting, and systemic metabolic dysfunction during cancer cachexia. The lab is actively involved in studying the crosstalk between tumor cells and peripheral tissues through exosome-mediated signaling, including exosome profiling to identify novel biomarkers and therapeutic targets associated with cachexia progression and treatment response.
+
+                                In addition, the laboratory investigates transcriptional and epigenetic regulation of genes involved in cellular senescence, stress adaptation, inflammation, and tumor survival. By integrating molecular biology, bioinformatics, and computational drug discovery pipelines, the lab aims to identify and validate novel therapeutic candidates targeting cancer-associated pathways. Through this multidisciplinary approach, the Qamar Lab seeks to bridge fundamental cancer research with translational applications for improved diagnostics and therapeutics.
+                                {/*The Qamar Lab at Gautam Buddha University is focused on advancing research in cancer biology, transcriptional gene regulation, molecular oncology, and computational drug discovery. The laboratory integrates experimental biology with in-silico approaches to investigate cellular senescence, endocrine regulation, and therapeutic target discovery.*/}
 
                                 {/*With research contributions spanning international collaborations, funded biomedical projects, and publications in journals including Scientific Reports, Journal of Biological Chemistry, Aging, and Journal of Biomolecular Structure and Dynamics, the lab continues to explore translational strategies for cancer therapeutics and molecular medicine.*/}
                                 {/*The MehtaLab at IIT Bombay is a premier research group dedicated to advancing the frontiers of biotechnology, genetic engineering, and computational biology. Our interdisciplinary approach bridges fundamental science with translational medicine.*/}
@@ -202,7 +207,7 @@ export default function Home() {
                     <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mb-16 max-w-2xl">
                         <span className="text-[#00b8d9] text-sm font-semibold uppercase tracking-widest mb-4 block">What we study</span>
                         <h2 className="text-4xl font-display font-bold text-[#0a1628] dark:text-white mb-4">Research Domains</h2>
-                        <p className="text-gray-500 dark:text-gray-400 leading-relaxed">Four active research areas, unified by a commitment to molecular-level understanding and real-world biomedical impact.</p>
+                        <p className="text-gray-500 dark:text-gray-400 leading-relaxed">Three active research areas, unified by a commitment to molecular-level understanding and real-world biomedical impact.</p>
                     </motion.div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {domains.map((domain, i) => (
