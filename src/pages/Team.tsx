@@ -101,7 +101,7 @@ export default function Team() {
                         <div className="flex flex-col md:flex-row gap-10 items-start">
                             <div className="shrink-0">
                                 <div className="w-44 h-52 rounded-3xl overflow-hidden shadow-xl border border-gray-100 dark:border-white/10">
-                                    <img src="pics/IMG_2361.jpg" alt="Dr. Imteyaz Qamar" className="w-full h-full object-cover" />
+                                    <img src="pics/IMG_2361.jpeg" alt="Dr. Imteyaz Qamar" className="w-full h-full object-cover" />
                                 </div>
                             </div>
                             <div className="flex-1">

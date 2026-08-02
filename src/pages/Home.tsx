@@ -98,7 +98,7 @@ export default function Home() {
                             <div className="relative">
                                 <div className="w-80 h-[22rem] md:w-[22rem] md:h-[26rem] rounded-3xl overflow-hidden border-2 border-white/10 shadow-[0_32px_64px_rgba(0,0,0,0.5)]">
                                 {/*<div className="w-72 h-80 md:w-80 md:h-96 rounded-3xl overflow-hidden border-2 border-white/10 shadow-[0_32px_64px_rgba(0,0,0,0.5)]">*/}
-                                    <img src="/pics/IMG_2361.jpg" alt="Dr. Imteyaz Qamar" className="w-full h-full object-cover" />
+                                    <img src="/pics/IMG_2361.jpeg" alt="Dr. Imteyaz Qamar" className="w-full h-full object-cover" />
                                     <div className="absolute inset-0 bg-gradient-to-t from-[#050d1a]/60 via-transparent to-transparent" />
                                 </div>
                                 <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }} className="absolute -bottom-5 -left-8 bg-white dark:bg-[#0f2244] dark:border dark:border-white/10 rounded-2xl px-5 py-4 shadow-xl">
