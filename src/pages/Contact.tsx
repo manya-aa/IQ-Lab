@@ -56,8 +56,8 @@ export default function Contact() {
                                 </motion.div>
                             ) : (
                                 <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
-                                    <input type="hidden" name="subject" value="New inquiry \u2014 MehtaLab Website" />
-                                    <input type="hidden" name="from_name" value="MehtaLab Contact Form" />
+                                  <input type="hidden" name="subject" value="New inquiry — MehtaLab Website" />
+                                  <input type="hidden" name="from_name" value="MehtaLab Contact Form" />
                                     <input type="checkbox" name="botcheck" className="hidden" />
 
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
